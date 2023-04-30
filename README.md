@@ -18,5 +18,4 @@ Phân tích mức độ đúng-sai của các câu trả lời|Nguyễn Cửu V�
 Clustering|Nguyễn Cửu Vân Kha|08/05/2023
 Regression|Nguyễn Cửu Vân Kha|08/05/2023
 Classify|Nguyễn Cửu Vân Kha|09/05/2023
-Trang trí (nếu có thời gian)|Nguyễn Cửu Vân Kha|10/05/2023-12/05/2023
 Kiểm và thử lỗi chương trình|Nguyễn Cửu Vân Kha|10/05/2023-12/05/2023
