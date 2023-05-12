@@ -11,9 +11,9 @@ Nguyễn Cửu Vân Kha|10CTINA|vankha09052007@gmail.com
 
 Chức năng|Người thực hiện|Ngày hoàn thành dự kiến
 -|-|-
-Danh sách từ vựng từ A1 đến C2|Nguyễn Cửu Vân Kha|02/05/2023
+Danh sách từ vựng|Nguyễn Cửu Vân Kha|02/05/2023
 Phân tích danh sách|Nguyễn Cửu Vân Kha|03/05/2023
-Câu hỏi cho học sinh trả lời các từ vựng dựa theo danh sách trên hoặc danh sách tự tải lên|Nguyễn Cửu Vân Kha|05/05/2023
+Câu hỏi cho học sinh trả lời các từ vựng dựa theo danh sách|Nguyễn Cửu Vân Kha|05/05/2023
 Phân tích mức độ đúng-sai của các câu trả lời|Nguyễn Cửu Vân Kha|07/05/2023
 Clustering|Nguyễn Cửu Vân Kha|08/05/2023
 Regression|Nguyễn Cửu Vân Kha|08/05/2023
