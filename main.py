@@ -8,6 +8,9 @@ def main():
 	st.set_page_config(layout="wide")
 	st.title('Phân tích mức độ thuộc bài của học sinh')
 	vk = pd.read_csv('TRONG.csv')
+	X = []
+	X1 = []
+	X2 = []
     	X = df['MEANING'].values.copy()
     	X1 = df['WORD'].values.copy()
     	X2 = kq['WORD'].values.copy()
