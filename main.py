@@ -8,11 +8,13 @@ def main():
     st.set_page_config(layout="wide")
     st.title('Phân tích mức độ thuộc bài của học sinh')
     vk = pd.read_csv('TRONG.csv')
+    X = df['MEANING'].values.copy()
+    X1 = df['WORD'].values.copy()
+    X2 = kq['WORD'].values.copy()
     CheckAccuracyTab, AnalyzeTab = st.tabs(['Học từ vựng và Kiểm tra','Phân tích thống kê'])
 
     with CheckAccuracyTab:
         st.header('ĐỀ')
-	X = df['MEANING'].values.copy()
 	vk['MEANING'] = X
 	st.write(vk.heah(n=25))
 	st.header('ĐÁP ÁN')
@@ -25,8 +27,6 @@ def main():
         st.header('Phân tích dữ liệu')
         tab1, tab2 = st.tabs(["Kết quả","Phân tích, đánh giá"])
         with tab1:
-            X1 = df['WORD'].values.copy()
-	    X2 = kq['WORD'].values.copy()
 	    dung = 0
 	    for i in range(25):
 		if (X1[i]==X2[i]):
