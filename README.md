@@ -19,3 +19,7 @@ Clustering|Nguyễn Cửu Vân Kha|08/05/2023
 Regression|Nguyễn Cửu Vân Kha|08/05/2023
 Classify|Nguyễn Cửu Vân Kha|09/05/2023
 Kiểm và thử lỗi chương trình|Nguyễn Cửu Vân Kha|10/05/2023-12/05/2023
+
+# Demo
+## Link: https://vankha09052007-mc4ai-project-template-main-m2grl3.streamlit.app/
+## Video: 
