@@ -7,9 +7,9 @@ def main():
 	df = pd.read_csv('TACT.csv')
 	st.title('Phân tích mức độ thuộc bài của học sinh')
 	vk = pd.read_csv('TRONG.csv')
-    	X = df['MEANING'].values.copy()
-    	X1 = df['WORD'].values.copy()
-    	X2 = kq['WORD'].values.copy()
+    		X = df['MEANING'].values.copy()
+    		X1 = df['WORD'].values.copy()
+    		X2 = kq['WORD'].values.copy()
     	CheckAccuracyTab, AnalyzeTab = st.tabs(['Học từ vựng và Kiểm tra','Phân tích thống kê'])
 
     	with CheckAccuracyTab:
