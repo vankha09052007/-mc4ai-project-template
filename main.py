@@ -12,7 +12,8 @@ def main():
 
     with CheckAccuracyTab:
         st.header('ĐỀ')
-	vk['MEANING'] = df['MEANING']
+	X = df['MEANING'].values.copy()
+	vk['MEANING'] = X
 	st.write(vk.heah(n=25))
 	st.header('ĐÁP ÁN')
 	st.write('Lưu ý: tạo file excel dòng đầu là WORD, các dòng tiếp theo là đáp án, không biết ghi null, đáp án viết thường, lưu file dạng .csv tải lên MyDrive với tên kq.csv')
