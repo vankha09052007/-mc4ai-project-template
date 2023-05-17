@@ -3,14 +3,10 @@ import pandas as pd
 import numpy as np
 import plotly.express as px 
 
-def ReadData():
-    return pd.read_csv('TACT.csv')
-
 def main(): 
     df = pd.read_csv('TACT.csv')
     st.set_page_config(layout="wide")
     st.title('Phân tích mức độ thuộc bài của học sinh')
-    df = ReadData()
     vk = pd.read_csv('TRONG.csv')
     CheckAccuracyTab, AnalyzeTab = st.tabs(['Học từ vựng và Kiểm tra','Phân tích thống kê'])
 
